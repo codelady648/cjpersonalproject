@@ -62,14 +62,38 @@
   </div>
 </div>
 
+<!--START - Address Input boxes using Javascript in myjsfile.js -->  
+<!--JS Code for Contact Page.  Customer Contact Information submission.-->
+  
+    <h3>Customer Address Submitted: <h5><span  id="target1">Name:</span></h5>
+     <h5><span  id="target2">Address:</span></h5> 
+      <h5><span  id="target3">City, State, Zip:</span></h5> 
+       
+
+      
+      
+    <input id="place1" type="text" placeholder="First, Last Name" />  <!-- Creates Input box. --> 
+     <input type="button" value="Submit" onclick="insert()"/><br><br> <!--Creates click box.-->
+      
+    <input id="place2" type="text" placeholder="Street Address" />
+    <input type="button" value="Submit" onclick="insert()"/><br><br>
+      
+    <input id="place3" type="text" placeholder="City, State, Zip" />
+    <input type="button" value="Submit" onclick="insert()"/><br><br>
+      
+   <!--Address input boxes code END-->
+
+
     
     
-<!-- Set height and width with CSS -->
+    
+<!-- Set Map height and width with CSS -->
 <div id="googleMap" style="height:400px;width:90%;" align="center"></div>
 
-<!-- Add Google Maps -->
-<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+
 <script>
+<!-- Add Google Maps -->
 var myCenter = new google.maps.LatLng(40.773602, -73.952303);
 
 function initialize() {
@@ -96,7 +120,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
     
     
     
-    
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script src="js/myjsfile.js"></script>
     
     
     
