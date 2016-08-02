@@ -47,7 +47,11 @@
     margin: 10;
 }
 
-
+#animation {
+    vertical-align:middle;
+  
+  
+}
 
 
 </style>
@@ -78,7 +82,7 @@ $(document).ready(function(){
       <li><a href="cakesPastries.html"><strong>Our Pastries & Cakes</strong></a></li>
       <li><a href="donatePage.html"><strong>Donate</strong></a></li> 
       <li><a href="contactMap.html" align="right"><strong>Contact Us  </strong><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> </a></li>
-      <li><form class="form-inline"><span style="padding-left:170px">
+      <li><form class="form-inline"><span style="align:right">
       <input type="email" class="form-control" size="30" placeholder="Email Address" required>
       <button type="button" class="btn btn-danger">Subscribe</button>
            </form></li>
@@ -145,8 +149,11 @@ $(document).ready(function(){
     
     
      <!-- Containers below the Carousel -->
-<div class="container text-center">    
-  <h3><strong>Our Products</strong></h3><br>
+<div class="container text-center">
+  <br>    
+  <h3><strong>Our Story</strong></h3>
+  <hr class="style15">
+  <br>
   <div class="row">
     <div class="col-sm-4">
       <img src="images/cake-1241413_1280.jpg" class="img-responsive" width="100%" alt="Image" style="border:1px solid black">
@@ -169,18 +176,10 @@ $(document).ready(function(){
          by supporting charites that help to shelter, educate and protect them.</h4>
       </div>
      
- <button>Click to Eat the Yummy Cupcake !</button><br><br>  <!--START cupcake animation-->
+  <!--START cupcake animation-->
 
 
-<div id="div1">
-  <div class="floating-box"> 
-    <img src="images/cupcakeEat_0138.PNG"  class="img-responsive" width="200px" height="200px">
-  </div>
-</div>
 
-<div class="floating-box">
-  <img src="images/girlOpenMouth2_0134.PNG" class="img-responsive" width="200px" height="200px">
-</div>  
      
  <!--END of cupcake animation -->     
   
@@ -189,16 +188,20 @@ $(document).ready(function(){
   </div>
 </div><br>
 
+
+
+
  <!-- Second Containers below the Carousel -->
     
-<div class="main2"
+<div class="main2">
 <div class="container text-center"> 
     
     
   <!-- Container (Portfolio Section) -->
-<div class="container-fluid text-center bg-grey">
-  <h2>Our Delicious Baked Goods</h2><br>
-  
+<div class="container-fluid text-center ">
+  <h3><strong>Our Delicious Baked Goods</strong></h3>
+  <hr class="style15"
+  <br><br>
   <div class="row text-center">
     <div class="col-sm-4">
       <div class="thumbnail">
@@ -236,7 +239,45 @@ $(document).ready(function(){
       </div>
     </div>
   </div>
+  <br><br>
+  
+  <!--START separate CONTAINER for cupcake animation-->
+
+<div class="container"> 
+<div id="animation">
+
+<button>Click to Eat the Yummy Cupcake !</button><br><br>  <!--START cupcake animation-->
+
+
+<div id="div1">
+  <div class="floating-box"> 
+    <img src="images/cupcakeEat_0138.PNG"  class="img-responsive" width="200px" height="200px">
+  </div>
 </div>
+
+<div class="floating-box">
+  <img src="images/girlOpenMouth2_0134.PNG" class="img-responsive" width="200px" height="200px">
+</div>  
+
+</div>
+</div>  <!-- Animation Container END-->
+
+
+<!--END separate CONTAINER for cupcake animation-->
+  
+</div>
+
+
+</div>
+
+</div>
+<hr class="style15">
+
+
+
+
+
+
 
      <!-- Footer -->
 <footer class="container-fluid text-left">
@@ -260,7 +301,12 @@ $(document).ready(function(){
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
  
  
- 
+    
+    
+    
+    
+    
+    
   </body>
 </html>
     
